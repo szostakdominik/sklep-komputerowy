@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PanelSprzedajacyController">
+   <children>
+      <Pane layoutX="52.0" layoutY="51.0" prefHeight="619.0" prefWidth="1176.0" style="-fx-background-color: #353535; -fx-border-color: #126EAC;">
+         <children>
+            <BorderPane prefHeight="35.0" prefWidth="1176.0" style="-fx-background-color: #348BC2; -fx-background-color: #126EAC;">
+               <center>
+                  <Label text="Panel Sprzedającego" textFill="WHITE" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <ComboBox fx:id="tabeleCB" layoutX="56.0" layoutY="58.0" prefWidth="150.0" style="-fx-background-color: #000000;" />
+            <Button layoutX="221.0" layoutY="58.0" mnemonicParsing="false" onAction="#wybierzAction" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #000000;" text="Wybierz" textFill="#547575" />
+            <Button layoutX="329.0" layoutY="58.0" mnemonicParsing="false" onAction="#sumaAction" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #000000;" text="Suma" textFill="#547575" />
+            <Button layoutX="1026.0" layoutY="58.0" mnemonicParsing="false" onAction="#actionWyloguj" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #000000;" text="Wyloguj" textFill="#547575" />
+            <TableView fx:id="tabelaWyswietlanie" layoutX="56.0" layoutY="100.0" prefHeight="492.0" prefWidth="1071.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

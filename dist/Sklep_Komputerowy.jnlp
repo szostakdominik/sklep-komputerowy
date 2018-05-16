@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Sklep_Komputerowy.jnlp">
+  <information>
+    <title>Sklep_Komputerowy</title>
+    <vendor>mwojc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Sklep_Komputerowy.jar" size="91822" download="eager" />
+    <jar href="lib/dsn.jar" size="18190" download="eager" />
+    <jar href="lib/imap.jar" size="176186" download="eager" />
+    <jar href="lib/mail.jar" size="494975" download="eager" />
+    <jar href="lib/mailapi.jar" size="261382" download="eager" />
+    <jar href="lib/pop3.jar" size="42854" download="eager" />
+    <jar href="lib/postgresql-42.1.4.jar" size="713037" download="eager" />
+    <jar href="lib/smtp.jar" size="52195" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Sklep_Komputerowy" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="GUI.Main"  name="Sklep_Komputerowy" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="557.0" style="-fx-background-color: #353535; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.UsunFXMLController">
+   <children>
+      <Label layoutX="114.0" layoutY="116.0" text="Usuń" textFill="WHITE" />
+      <Label layoutX="166.0" layoutY="118.0" text="gdzie id: " textFill="WHITE" />
+      <Label layoutX="114.0" layoutY="79.0" text="Pracownicy" textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="168.0" text="Laptopy" textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="201.0" text="Usuń" textFill="WHITE" />
+      <Label layoutX="169.0" layoutY="203.0" text="gdzie id: " textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="247.0" text="Podzespoły PC" textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="291.0" text="Usuń" textFill="WHITE" />
+      <Label layoutX="169.0" layoutY="293.0" text="gdzie id: " textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="331.0" text="Użytkownicy" textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="372.0" text="Usuń" textFill="WHITE" />
+      <Label layoutX="169.0" layoutY="374.0" text="gdzie id: " textFill="WHITE" />
+      <Label layoutX="115.0" layoutY="417.0" text="Zamówienia" textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="455.0" text="Usuń" textFill="WHITE" />
+      <Label layoutX="169.0" layoutY="457.0" text="gdzie id: " textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="498.0" text="Utarg" textFill="WHITE" />
+      <Label layoutX="117.0" layoutY="528.0" text="Usuń" textFill="WHITE" />
+      <Label layoutX="169.0" layoutY="530.0" text="gdzie id: " textFill="WHITE" />
+      <BorderPane prefHeight="35.0" prefWidth="624.0" style="-fx-background-color: #348BC2; -fx-background-color: #126EAC;">
+         <center>
+            <Label text="Tryb usuwania tabel SQL" textFill="WHITE" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <Button fx:id="closeButton" layoutX="250.0" layoutY="609.0" mnemonicParsing="false" onAction="#backAction" prefHeight="17.0" prefWidth="127.0" style="-fx-background-color: #000000;" text="Wróć" textFill="#547575" />
+      <TextField fx:id="pracownicyID" layoutX="231.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="287.0" layoutY="113.0" mnemonicParsing="false" onAction="#pracownicyEdytuj" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #000000;" text="Usuń" textFill="#547575" />
+      <TextField fx:id="laptopyID" layoutX="234.0" layoutY="198.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="290.0" layoutY="198.0" mnemonicParsing="false" onAction="#laptopyEdytuj" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #000000;" text="Usuń" textFill="#547575" />
+      <TextField fx:id="podzespolyID" layoutX="229.0" layoutY="289.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="285.0" layoutY="289.0" mnemonicParsing="false" onAction="#podzespolyEdytuj" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #000000;" text="Usuń" textFill="#547575" />
+      <TextField fx:id="uzytkownicyID" layoutX="234.0" layoutY="369.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="290.0" layoutY="369.0" mnemonicParsing="false" onAction="#usersEdytuj" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #000000;" text="Usuń" textFill="#547575" />
+      <TextField fx:id="zamowieniaID" layoutX="234.0" layoutY="452.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="290.0" layoutY="452.0" mnemonicParsing="false" onAction="#zamowieniaEdytuj" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #000000;" text="Usuń" textFill="#547575" />
+      <TextField fx:id="utargID" layoutX="234.0" layoutY="525.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #000000;" />
+      <Button layoutX="290.0" layoutY="525.0" mnemonicParsing="false" onAction="#utargEdytuj" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #000000;" text="Usuń" textFill="#547575" />
+   </children>
+</AnchorPane>
